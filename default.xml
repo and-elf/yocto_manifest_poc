@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="xilinx"  fetch="https://github.com/Xilinx"/>
-  <remote name="extra"  fetch="https://github.com/and-elfnamne"/>
+  <remote name="extra"  fetch="https://github.com/and-elf"/>
 
   <default sync-j="4"/>
 

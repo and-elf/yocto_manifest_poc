@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="xilinx"  fetch="https://github.com/Xilinx"/>
-  <remote name="extra"  fetch="https://github.com/and-elf/yocto_manifest_poc_layer"/>
+  <remote name="extra"  fetch="https://github.com/and-elfnamne"/>
 
   <default sync-j="4"/>
 
@@ -30,5 +30,5 @@
   <project remote="xilinx"    revision="rel-v2023.2"      name="meta-jupyter"             path="sources/meta-jupyter"/>
   <project remote="xilinx"    revision="rel-v2023.2"      name="meta-system-controller"   path="sources/meta-system-controller"/>
   <project remote="xilinx"    revision="rel-v2023.2"      name="meta-vitis"               path="sources/meta-vitis"/>
-  <project remote="extra"     revision="main"             name="scripts"                  path="scripts"/>
+  <project remote="extra"     revision="main"             name="yocto_manifest_poc_layer" path="scripts"/>
 </manifest>

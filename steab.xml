@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="default.xml"/>
+  <remote name="extra"  fetch="https://github.com/and-elf"/>
+
+  <project remote="extra"     revision="main"             name="yocto_manifest_poc_layer" path="scripts"/>
+</manifest>
